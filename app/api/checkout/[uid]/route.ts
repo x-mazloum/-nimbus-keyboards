@@ -32,11 +32,11 @@ export async function POST(
                     price_data: {
                         currency: "usd",
                         product_data: {
-                            name,
+                            name: name as string,
                             ...(description ? {description} : {}),
                             ...(image ? {images: [image]} : {})
                         },
-                        unit_amount: price
+                        unit_amount: Math.round((price as number) * 100),
                     },
                     quantity: 1
                 }
