@@ -1,0 +1,36 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading1",
+						"content": {
+							"text": "Nearer"
+						}
+					}
+				]
+			},
+			"body": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Duis id dolor fugiat sint aliquip elit exercitation labore consequat nisi. Amet cillum exercitation excepteur veniam duis cillum Lorem in. Anim dolore duis adipisicing ad cillum labore eu Lorem occaecat commodo commodo."
+						}
+					}
+				]
+			},
+			"buy_button_text": {
+				"__TYPE__": "FieldContent",
+				"value": "horse",
+				"type": "Text"
+			}
+		},
+		"items": []
+	}
+]
